@@ -1,0 +1,27 @@
+h1{
+color: rgb(214, 224, 214);
+background-color: rgb(48, 172, 17);
+font-feature-settings: "falt";
+}
+button{
+    align-self: flex-end;
+max-width: 20;
+margin-inline-start: 0in;
+margin-left: 150px;
+margin: right 100px;
+padding: 8px;
+left: 10px;
+}
+.column{
+    float: left;
+    width: 50%;
+}
+.row::after{
+    content: normal;
+    display: inline;
+    clear: both;
+}
+h2{
+    color: rgb(14, 16, 19);
+    background-color: rgb(228, 228, 245);
+}
